@@ -3,7 +3,7 @@ const { getCommands } = require('./command');
 const fs = require('fs');
 require('dotenv').config();
 
-const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
+const bot = new TelegramBot("7613209987:AAEUt4IR1Akm_-Z-WiTt_Knm80CV414mmsM", { polling: true });
 
 // Charger les plugins
 fs.readdirSync('./plugins').forEach(file => {
